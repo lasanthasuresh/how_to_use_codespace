@@ -1,29 +1,32 @@
+"""Morawaliyadda M.G.H.S.M
+   EG/2020/4078
+  """
 def calculate_power(base, exponent):
-  """Calculates the power of a number.
+    """Calculates the power of a number.
 
-  Args:
+    Args:
     base: The base number.
     exponent: The exponent.
 
-  Returns:
+    Returns:
     The power of the base number raised to the exponent.
-  """
+    """
 
-  result = 1
-  for i in range(exponent):
-    result *= base
-  return result
+    result = 1
+    for _ in range(exponent):
+        result *= base
+    return result
 
 
 def main():
-  """Prompts the user for two numbers and prints the power of those numbers."""
+    """Prompts the user for two numbers and prints the power of those numbers."""
 
-  base = int(input("Enter the base number: "))
-  exponent = int(input("Enter the exponent: "))
+    base = int(input("Enter the base number: "))
+    exponent = int(input("Enter the exponent: "))
 
-  power = calculate_power(base, exponent)
-  print(f"The power of {base} raised to {exponent} is {power}")
+    power = calculate_power(base, exponent)
+    print(f"The power of {base} raised to {exponent} is {power}")
 
 
 if __name__ == "__main__":
-  main()
+    main()
