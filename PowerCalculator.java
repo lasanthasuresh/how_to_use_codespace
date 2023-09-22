@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
-public class PowerCalculator {
+public class PowerCalculator 
+{
 
-  public static void main(String[] args) {
+  public static void main(String[] args) 
+  {
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("Enter the base number: ");
@@ -15,9 +17,13 @@ public class PowerCalculator {
     System.out.println("The power of " + base + " raised to" + exponent + " is " +power );
   }
 
-  private static double calculatePower(double base, double exponent) {
+  
+
+  private static double calculatePower(double base, double exponent) 
+  {
     double result = 1;
-    for (int i = 0; i < exponent; i++) {
+    for (int i = 0; i < exponent; i++) 
+    {
       result *= base;
     }
     return result;
