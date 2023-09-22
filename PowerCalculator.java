@@ -13,7 +13,7 @@ public class PowerCalculator {
 
     double power = calculatePower(base, exponent);
     System.out.println("The power of " + base + " raised to" + exponent + " is " +power );
-  }
+  }fsdfsdfs
 
   private static double calculatePower(double base, double exponent) {
     double result = 1;
