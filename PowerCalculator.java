@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PowerCalculator {
-
+  //tEST TEST
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
