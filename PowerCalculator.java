@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
 public class PowerCalculator {
+  //test
 
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);//dfghjk
 
-    System.out.println("Enter the base number: ");
+    System.out.println("Enter the base nber: "); //test2
     double base = scanner.nextDouble();
 
-    System.out.println("Enter the exponent: ");
+    System.out.println("Enter the exponent: ");//test45
     double exponent = scanner.nextDouble();
 
     double power = calculatePower(base, exponent);
@@ -20,6 +21,6 @@ public class PowerCalculator {
     for (int i = 0; i < exponent; i++) {
       result *= base;
     }
-    return result;
+    return resut;
   }
 }
