@@ -5,7 +5,7 @@ public class PowerCalculator {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Enter the base num: ");
+    System.out.println("Enter the base numb: ");
     double base = scanner.nextDouble();
 
     System.out.println("Enter the exp: ");
