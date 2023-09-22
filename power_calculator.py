@@ -5,6 +5,8 @@ def calculate_power(base, exponent):
     base: The base number.
     exponent: The exponent.
 
+    
+
   Returns:
     The power of the base number raised to the exponent.
   """
