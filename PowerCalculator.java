@@ -8,7 +8,7 @@ public class PowerCalculator {
     System.out.print("Enter the base number: ");
     double baseValue = scanner.nextDouble();
 
-    System.out.print("Enter the exponent: ");
+    System.out.print("Enter the exponent here: ");
     double exponentValue = scanner.nextDouble();
 
     double powerValue = calculatePower(baseValue, exponentValue);
