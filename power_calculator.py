@@ -1,9 +1,6 @@
 def calculate_power(base, exponent):
-  """Calculates the power of a number.
+  """Calculates the power of a number when given.
 
-  Args:
-    base: The base number.
-    exponent: The exponent.
 
   Returns:
     The power of the base number raised to the exponent.
