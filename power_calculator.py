@@ -10,10 +10,10 @@ def calculate_power(base, exponent):
   """
 
   result = 1
+
   for i in range(exponent):
     result *= base
   return result
-
 
 def main():
   """Prompts the user for two numbers and prints the power of those numbers."""
