@@ -5,10 +5,10 @@ public class PowerCalculator {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Enter the base: ");
+    System.out.println("Enters the base: ");
     double base = scanner.nextDouble();
 
-    System.out.println("Enter the exponent: ");
+    System.out.println("Enters the exponent: ");
     double exponent = scanner.nextDouble();
 
     double power = calculatePower(base, exponent);
