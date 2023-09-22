@@ -18,7 +18,7 @@ def calculate_power(base, exponent):
 def main():
   """Prompts the user for two numbers and prints the power of those numbers."""
 
-  base = int(input("Enter the base number: "))
+  base = int(input("Enter the base num: "))
   exponent = int(input("Enter the exponent: "))
 
   power = calculate_power(base, exponent)
