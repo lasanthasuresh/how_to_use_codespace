@@ -6,7 +6,7 @@ def calculate_power(base, exponent):
     exponent: The exponent.
 
   Returns:
-    The power of the base number raised to the exponent.
+    The power of th base number raised to the exponent.
   """
 
   result = 1
